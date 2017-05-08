@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DiffuseLayout">
+        <!--扩散圆的颜色-->
+        <attr name="diffuse_color" format="color|reference"/>
+        <!--每个扩散圆的宽度-->
+        <attr name="diffuse_width" format="dimension"/>
+        <!--几个扩散圆-->
+        <attr name="diffuse_count" format="integer"/>
+        <!--开始扩散Alpha值-->
+        <attr name="diffuse_start_alpha" format="integer"/>
+        <!--结束扩散Alpha值-->
+        <attr name="diffuse_end_alpha" format="integer"/>
+        <!--每次扩散的增加几个像素，决定扩散的速度-->
+        <attr name="diffuse_every_step" format="dimension"/>
+        <!--每次扩散的时间,毫秒数-->
+        <attr name="diffuse_every_time" format="integer"/>
+        <!--下次扩散延迟时间,毫秒数，只有当diffuse_count==1时，才有效-->
+        <attr name="diffuse_delay" format="integer"/>
+    </declare-styleable>
+
+</resources>
