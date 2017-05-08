@@ -1,4 +1,4 @@
-package com.kilnn.widget.diffuse;
+package com.github.kilnn.diffuse;
 
 import org.junit.Test;
 

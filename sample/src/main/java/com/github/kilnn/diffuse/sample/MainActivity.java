@@ -1,4 +1,4 @@
-package com.kilnn.widget.diffuse.sample;
+package com.github.kilnn.diffuse.sample;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

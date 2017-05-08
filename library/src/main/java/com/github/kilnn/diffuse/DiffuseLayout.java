@@ -1,4 +1,4 @@
-package com.kilnn.widget.diffuse;
+package com.github.kilnn.diffuse;
 
 import android.annotation.TargetApi;
 import android.content.Context;

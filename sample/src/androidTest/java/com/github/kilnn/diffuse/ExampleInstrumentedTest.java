@@ -1,4 +1,4 @@
-package com.kilnn.widget.diffuse;
+package com.github.kilnn.diffuse;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -5,9 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.kilnn.widget.diffuse.sample.MainActivity">
+    tools:context="com.github.kilnn.diffuse.sample.MainActivity">
 
-    <com.kilnn.widget.diffuse.DiffuseLayout
+    <com.github.kilnn.diffuse.DiffuseLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:diffuse_color="#ff0000"
@@ -25,7 +25,7 @@
             android:layout_height="100dp"
             android:text="Hello World!"/>
 
-    </com.kilnn.widget.diffuse.DiffuseLayout>
+    </com.github.kilnn.diffuse.DiffuseLayout>
 
 
 </android.support.constraint.ConstraintLayout>
