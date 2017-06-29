@@ -10,19 +10,20 @@
     <com.github.kilnn.diffuse.DiffuseLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:gravity="center"
         app:diffuse_color="#ff0000"
         app:diffuse_count="3"
         app:diffuse_every_time="20"
         app:diffuse_width="10dp"
-        android:background="#ff0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Hello World!"/>
 
     </com.github.kilnn.diffuse.DiffuseLayout>

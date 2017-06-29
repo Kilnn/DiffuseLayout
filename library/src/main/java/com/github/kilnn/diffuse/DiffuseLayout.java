@@ -17,7 +17,7 @@ import java.util.List;
 
 /**
  * Created by Kilnn on 2017/3/20.
- * 参考：http://blog.csdn.net/airsaid/article/details/52683193
+ * Reference:http://blog.csdn.net/airsaid/article/details/52683193
  */
 
 public class DiffuseLayout extends LinearLayout {
@@ -64,9 +64,11 @@ public class DiffuseLayout extends LinearLayout {
 
     private void init(Context context, AttributeSet attrs, int defStyleAttr) {
         Drawable bg = getBackground();
-        if (bg != null && bg instanceof ColorDrawable) {
-            mCenterColor = ((ColorDrawable) bg).getColor();
-            setBackgroundDrawable(null);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+            if (bg != null && bg instanceof ColorDrawable) {
+                mCenterColor = ((ColorDrawable) bg).getColor();
+                setBackgroundDrawable(null);
+            }
         }
         mDiffuseColor = mCenterColor;
         if (attrs != null) {
